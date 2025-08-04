@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vansh Dixit - Software Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">Vansh Dixit</div>
+            <nav class="nav-menu">
+                <a href="#home" onclick="scrollToSection('home')">Home</a>
+                <a href="#about" onclick="scrollToSection('about')">About</a>
+                <a href="#skills" onclick="scrollToSection('skills')">Skills</a>
+                <a href="#projects" onclick="scrollToSection('projects')">Projects</a>
+                <a href="#contact" onclick="scrollToSection('contact')">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <h1 class="glitch" data-text="VANSH DIXIT">VANSH DIXIT</h1>
+            <p class="tagline">Software Developer & Programming Enthusiast 💻</p>
+            <p class="subtitle">Building the future, one line of code at a time ✨</p>
+            <div class="cta-buttons">
+                <button class="btn primary" onclick="scrollToSection('projects')">View Projects</button>
+                <button class="btn secondary" onclick="scrollToSection('contact')">Get In Touch</button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="card">
+                <h2>About Me</h2>
+                <p>👋 Hi there! I'm Vansh Dixit, a passionate software developer currently learning and exploring various programming languages. I love solving coding problems and building projects that make a difference.</p>
+                <br>
+                <p>🌱 Currently mastering C Programming, Python, JavaScript, and diving deep into web development. I'm always eager to collaborate on open source projects and learn from the amazing developer community.</p>
+                <br>
+                <p>⚡ When I'm not coding, you'll find me exploring new technologies, working on personal projects, or contributing to hackathons with creative ideas and content curation.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skill-grid">
+                <div class="skill-card">
+                    <div class="icon">💻</div>
+                    <h3>Programming Languages</h3>
+                    <p>C, Python, JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, Responsive Design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">📊</div>
+                    <h3>Data Visualization</h3>
+                    <p>Python libraries, Charts, Analytics</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">🛠️</div>
+                    <h3>Tools & Platforms</h3>
+                    <p>Git, GitHub, VS Code</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">🎯</div>
+                    <h3>Problem Solving</h3>
+                    <p>Algorithm design, Debugging, Logic building</p>
+                </div>
+                <div class="skill-card">
+                    <div class="icon">🤝</div>
+                    <h3>Collaboration</h3>
+                    <p>Open source, Team projects, Hackathons</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🔗 C Practice Problems</h3>
+                        <a href="https://github.com/BatteryOrVansh" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Comprehensive collection of C programming solutions from Apna College course. Demonstrates problem-solving skills and programming fundamentals.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">Algorithms</span>
+                        <span class="tech-tag">Problem Solving</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>📚 JavaScript Learning Journey</h3>
+                        <a href="https://github.com/BatteryOrVansh" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Learning JavaScript through Chai Aur Code's comprehensive course. Building practical projects and understanding modern JS concepts.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">ES6+</span>
+                        <span class="tech-tag">DOM Manipulation</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>📊 Data Visualization with Python</h3>
+                        <a href="https://github.com/BatteryOrVansh" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Exploring data visualization techniques using Python. Creating meaningful plots and charts to represent data insights effectively.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Matplotlib</span>
+                        <span class="tech-tag">Data Analysis</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🎓 Study Session Website</h3>
+                        <a href="https://github.com/BatteryOrVansh" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Hackathon project where I served as content curator and idea generator. Collaborative effort to create an educational platform.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Web Development</span>
+                        <span class="tech-tag">Content Strategy</span>
+                        <span class="tech-tag">Team Collaboration</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="card">
+                <h2>Let's Connect & Build Something Amazing</h2>
+                <p>I'm always excited to collaborate on open source projects, discuss programming challenges, or just chat about technology. Feel free to reach out!</p>
+                <div class="social-links">
+                    <a href="https://github.com/BatteryOrVansh" target="_blank" class="social-btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/vanshdixit/" target="_blank" class="social-btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="mailto:officialvanshdixit@gmail.com" class="social-btn">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> officialvanshdixit@gmail.com</p>
+                    <p><i class="fas fa-quote-left"></i> "Ask me about C, Python, or any other programming languages!"</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Vansh Dixit. Built with passion and code ❤️</p>
+            <div class="footer-socials">
+                <a href="https://github.com/BatteryOrVansh" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/vanshdixit/" target="_blank">LinkedIn</a>
+                <a href="mailto:officialvanshdixit@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="float-element"></div>
+        <div class="float-element"></div>
+        <div class="float-element"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
